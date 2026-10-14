@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Env (인증키 절대 커밋 금지)
+.env
+.env.local
+
+# Data — 원본/가공 모두 git에 들어가면 안 됨 (용량·재배포 라이선스)
+raw/
+processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
